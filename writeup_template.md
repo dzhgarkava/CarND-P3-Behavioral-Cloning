@@ -47,14 +47,15 @@ Training Strategy
 
 For training I use data from three cameras: center, left, right
 
-<img src="examples/center.jpg" width="320" alt="Center" />
 Center camera
+<img src="examples/center.jpg" width="320" alt="Center" />
 
-<img src="examples/left.jpg" width="320" alt="Left" />
 Left camera 
+<img src="examples/left.jpg" width="320" alt="Left" />
 
-<img src="examples/right.jpg" width="320" alt="Right" />
 Right camera
+<img src="examples/right.jpg" width="320" alt="Right" />
+
 
 Data was collected from 5 laps:
 * 3 careful laps mostly on the center of track
