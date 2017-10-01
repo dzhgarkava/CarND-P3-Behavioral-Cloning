@@ -15,7 +15,7 @@ I use model from NVidia. This neural network contains:
 
 On normalization layer I do image normalization and crop images.
 
-This model use Adam optimizer.
+This model uses Adam optimizer.
 
 ```
 model = Sequential()
@@ -47,13 +47,11 @@ Training Strategy
 
 For training I use data from three cameras: center, left, right
 
-Center camera
+
 <img src="examples/center.jpg" width="320" alt="Center" />
 
-Left camera 
 <img src="examples/left.jpg" width="320" alt="Left" />
 
-Right camera
 <img src="examples/right.jpg" width="320" alt="Right" />
 
 
