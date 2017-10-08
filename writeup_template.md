@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/left.jpg "Left"
 [image2]: ./examples/center.jpg "Center"
-[image3]: ./examples/righr.jpg "Right"
+[image3]: ./examples/right.jpg "Right"
 
 ###Files Submitted & Code Quality
 
