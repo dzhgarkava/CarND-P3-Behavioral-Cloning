@@ -10,9 +10,9 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/left.png "Left"
-[image2]: ./examples/center.png "Center"
-[image3]: ./examples/righr.png "Right"
+[image1]: ./examples/left.jpg "Left"
+[image2]: ./examples/center.jpg "Center"
+[image3]: ./examples/righr.jpg "Right"
 
 ###Files Submitted & Code Quality
 
