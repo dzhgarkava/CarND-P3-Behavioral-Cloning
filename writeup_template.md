@@ -70,6 +70,8 @@ For details about how I created the training data, see the next section.
 
 My first step was to use a convolution neural network model similar to the model in the lecture. I chose this model just to check that environment works fine.
 
+Next I made several experements with variations of LeNet. They worked good but no so well I expected. 
+
 After that I implemented model with architecture from NVidia.
 
 In order to undestand how well the model was working, I split my image and steering angle data into a training and validation set. To combat the overfitting, I modified the model and added two pooling layers. It allows to reduce overfitting and still keep model fast for training.
