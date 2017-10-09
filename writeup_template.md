@@ -14,9 +14,9 @@ The goals / steps of this project are the following:
 [image2]: ./examples/center.jpg "Center"
 [image3]: ./examples/right.jpg "Right"
 
-###Files Submitted & Code Quality
+### Files Submitted & Code Quality
 
-####1. Submission includes all required files and can be used to run the simulator in autonomous mode
+#### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
 My project includes the following files:
 * model.py containing the script to create and train the model
@@ -26,19 +26,19 @@ My project includes the following files:
 * video.py for creating video file for report
 * run.mp4 video file with one lap in autonomous mode
 
-####2. Submission includes functional code
+#### 2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
 ```sh
 python drive.py model.h5
 ```
 
-####3. Submission code is usable and readable
+#### 3. Submission code is usable and readable
 
 The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
 
-###Model Architecture and Training Strategy
+### Model Architecture and Training Strategy
 
-####1. An appropriate model architecture has been employed
+#### 1. An appropriate model architecture has been employed
 
 My model consists of a convolution neural network based on architecture from NVidia (model.py lines 60-82).
 This neural network contains:
@@ -48,25 +48,25 @@ This neural network contains:
 
 Every convolutional layer includes RELU layers to introduce nonlinearity (code lines 64, 66, 68, 69, 70), and the data is normalized in the model using a Keras lambda layer (code line 62). 
 
-####2. Attempts to reduce overfitting in the model
+#### 2. Attempts to reduce overfitting in the model
 
 The model contains pooling layers in order to reduce overfitting (model.py lines 65, 67). 
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 53-58). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
-####3. Model parameter tuning
+#### 3. Model parameter tuning
 
 The model uses an adam optimizer, so the learning rate was not tuned manually (model.py line 77).
 
-####4. Appropriate training data
+#### 4. Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road. 
 
 For details about how I created the training data, see the next section. 
 
-###Model Architecture and Training Strategy
+### Model Architecture and Training Strategy
 
-####1. Solution Design Approach
+#### 1. Solution Design Approach
 
 My first step was to use a convolution neural network model similar to the model in the lecture. I chose this model just to check that environment works fine.
 
@@ -78,7 +78,7 @@ The final step was to run the simulator to see how well the car was driving arou
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
-####2. Final Model Architecture
+#### 2. Final Model Architecture
 
 The final model architecture (model.py lines 60-82) consisted of a convolution neural network with the following layers and layer sizes:
 * Lambda and Cropping layer for image preprocessing (model.py lines 62-63)
@@ -86,7 +86,7 @@ The final model architecture (model.py lines 60-82) consisted of a convolution n
 * 2 Convolution layers with 3x3 filter sizes and depth 64 (model.py lines 69-70) 
 * 4 Fully-connected layers (model.py lines 72-75) 
 
-####3. Creation of the Training Set & Training Process
+#### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded five laps on track one using center lane driving. Then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to how to move to the center line. Images from left, center and right cameras look like:
 
