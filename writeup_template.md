@@ -88,7 +88,7 @@ The final model architecture (model.py lines 60-82) consisted of a convolution n
 
 #### 3. Creation of the Training Set & Training Process
 
-To capture good driving behavior, I first recorded five laps on track one using center lane driving. Then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to how to move to the center line. Images from left, center and right cameras look like:
+To capture good driving behavior, I first recorded seven laps on track one using center lane driving. Then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to how to move to the center line. Images from left, center and right cameras look like:
 
 ![alt text][image1]
 ![alt text][image2]
@@ -96,7 +96,7 @@ To capture good driving behavior, I first recorded five laps on track one using 
 
 To augment the data sat, I also flipped images and angles thinking that this would help to train model and add more training examples.
 
-After the collection process and preprocessing this data by flipping images, I had more than 40k number of data points.
+After the collection process and preprocessing this data by flipping images, I had more than 65k number of data points.
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
